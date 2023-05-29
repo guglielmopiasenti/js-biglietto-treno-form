@@ -1,4 +1,11 @@
-console.log('JS OK')
+// Getting the input and button elements from the DOM
+
+const userName = document.getElementById('name');
+const travelKm = document.getElementById('km');
+const age = document.getElementById('age');
+const generateBtn = document.getElementById('generate');
+const deleteBtn = document.getElementById('delete'); 
+
 
 // Creating train ticket calculator
 
@@ -7,10 +14,6 @@ console.log('JS OK')
 const p = document.getElementById("target");
 console.log(target);
 
-// Asking km 
-
-const travelKm = parseInt(prompt ('Enter how many km to travel', '20'));
-console.log("This are your selected km " + (travelKm));
 
 // Declaration of the cost per km variable
 
@@ -18,12 +21,6 @@ const costPerKm = 0.21;
 const totalKmCost = costPerKm * travelKm;
 console.log("This is the total cost " + (totalKmCost));
 let ticketPrice = totalKmCost;
-
-// Asking user's age
-
-const age = parseInt(prompt ('Enter your age', '25'));
-console.log(age);
-
 
 // Inserting age variable for discount calculation
 
