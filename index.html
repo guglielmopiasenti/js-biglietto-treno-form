@@ -51,7 +51,7 @@
     
     <main>
       <!-- Target element for .js -->
-      <div class="container d-flex flex-column justify-content-center py-5">
+      <div class="container d-flex flex-column justify-content-center align-items-center py-5 ">
           <div class="card" style="width: 80%;">
               <div class="card-body">
                   <h1 class="card-title text-center py-3">Calcolatore prezzo biglietto</h1>
@@ -70,15 +70,18 @@
                       <input id="age" type="text">
                     </div>
                   </div>
-                  <div class="d-flex ">
-                    <button id="generate" class="btn btn-primary">Genera</button>
-                    <button id="delete" class="btn btn-primary">Annulla</button>
+                  <div class="d-flex justify-content-center py-3">
+                    <button id="generate" class="btn btn-primary mx-2">Genera</button>
+                    <button id="delete" class="btn btn-primary mx-2">Annulla</button>
                   </div>
                   <p id="discount-message"></p>
                   <p id="target"></p>
               </div>
-          </div>
-          <div class="card">
+            </div>
+
+              <!-- Form  -->
+           
+          <div class="card my-5 py-3" style="width: 80%;">
             <h3 class="card-header">
               DETTAGLIO PASSEGGERI
             </h3>
