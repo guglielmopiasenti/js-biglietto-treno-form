@@ -44,4 +44,7 @@ generate.addEventListener("click", function() {
         ticketPrice -= (ticketPrice / 100) * discount;
     }
     console.log('Your ticket price is: ' + ticketPrice);
+
+    // Connecting the form and button
+    
 })
