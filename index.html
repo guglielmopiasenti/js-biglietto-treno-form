@@ -52,10 +52,28 @@
     <main>
       <!-- Target element for .js -->
       <div class="container d-flex justify-content-center py-5">
-          <div class="card" style="width: 20rem;">
+          <div class="card" style="width: 80%;">
               <div class="card-body">
-                  <h5 class="card-title py-3">Calcolatore prezzo biglietto</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">Calcola facilmente il prezzo del biglietto!</h6>
+                  <h1 class="card-title text-center py-3">Calcolatore prezzo biglietto</h1>
+                  <h2 class="card-subtitle mb-4 text-body-secondary text-center">Calcola facilmente il prezzo del biglietto!</h2>
+                  <div class="row">
+                    <div class="col">
+                      <h3>Inserisci il tuo nome</h3>
+                      <input id="name" type="text">
+                    </div>
+                    <div class="col ">
+                      <h3>Km da percorrere</h3>
+                      <input id="km" type="text">
+                    </div>
+                    <div class="col">
+                      <h3>Fascia d'eta'</h3>
+                      <input id="age" type="text">
+                    </div>
+                  </div>
+                  <div class="d-flex ">
+                    <button id="generate" class="btn btn-primary">Genera</button>
+                    <button id="delete" class="btn btn-primary">Annulla</button>
+                  </div>
                   <p id="discount-message"></p>
                   <p id="target"></p>
               </div>
