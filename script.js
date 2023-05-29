@@ -46,5 +46,6 @@ generate.addEventListener("click", function() {
     console.log('Your ticket price is: ' + ticketPrice);
 
     // Connecting the form and button
-    
+    nametarget.innerText = (writtenName);
+    pricetarget.innerText = (ticketPrice);
 })

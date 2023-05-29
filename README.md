@@ -18,3 +18,4 @@ The data recap and the final price output will then be printed on the page (the 
 3. I get the previous calculation and I connect it to the new elements
 4. I create a form element in the DOM.
 5. I connect the Form to the input and button elements so that i can show the info and price information.
+6. Adding randomized elements
